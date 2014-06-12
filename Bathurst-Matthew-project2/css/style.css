@@ -29,6 +29,10 @@ p{
 	line-height: 98%;
 }
 
+img{
+		border: solid;
+		color: rgba(255,204,035,1.0);
+}
 /*-------- <div> id tag styling -------- */
 #header{
 	
@@ -42,7 +46,7 @@ p{
 	width: 960px;
 	padding: 10px;
 	margin: auto;
-	
+	box-shadow: 5px 5px 5px #888888;
 }
 
 #footer{
@@ -53,15 +57,13 @@ p{
 	
 }
 
-/*-------- <div> id tag styling that aren't the 3 major div tags in the folder -------- */
 .content{
 	border-radius: 15px;
 	padding: 10px;
 	margin: 20px, auto;
-	background-color: rgb(100,100,100);
-	
-	
+	background-color: rgb(100,100,100);	
 }
+
 /*-------- Link Styling -------- */
 a:link {
     text-decoration: none;
@@ -85,7 +87,10 @@ a:active {
 }
 
 
-
+.return{
+	text-align: right;
+	/*This may a be a class for a paragraph tag, but in the current organization plan it is grouped with links*/
+}
 /*-------- Headline Styling -------- */
 h1{
 	color: rgba(000,128,000, .75);
@@ -93,7 +98,7 @@ h1{
 	font-family: Anton; sans-serif;
 	font-size: 35pt;
 	text-shadow: 2px 2px #FFFFFF;
-
+	
 }
 h2{
 	color: rgba(255,204,035,1.0);
@@ -110,13 +115,14 @@ ul{
 	list-style: circle;
 	
 }
-
+ol{
+	list-style:upper-roman;
+}
+/*-------- Custom List Styling for classes & ids -------- */
 
 .linkheader{
 	display: inline;
 	margin: 20px;
 	padding: 10px;
 }
-ol{
-	list-style:upper-roman;
-}
+
