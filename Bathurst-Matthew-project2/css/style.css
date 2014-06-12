@@ -13,19 +13,110 @@
 	src: url(http://fonts.googleapis.com/css?family=Anton);
 }
 
-/*-------- body tag styling -------- */
+/*-------- Default styling -------- */
 
 body{
-	background-color:rgba(255,204,035,1.0);
-	
+	background-color: rgb(92,92,92);
+	color: rgba(255,204,035,1.0);
 	padding: 0px, 25px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	width: 1200px;
+	margin: auto;
+}
+p{
+	line-height: 98%;
+}
+
+/*-------- <div> id tag styling -------- */
+#header{
+	
+	width: 960px;
+	padding: 10px;
+	margin: auto;
+}
+#body{
+	border: solid;
+	border-radius: 10px;
+	width: 960px;
+	padding: 10px;
+	margin: auto;
+	
+}
+
+#footer{
+	
+	width: 800px;
+	padding: 10px;
+	margin: auto;
+	
+}
+
+/*-------- <div> id tag styling that aren't the 3 major div tags in the folder -------- */
+.content{
+	border-radius: 15px;
+	padding: 10px;
+	margin: 20px, auto;
+	background-color: rgb(100,100,100);
+	
+	
 }
 /*-------- Link Styling -------- */
+a:link {
+    text-decoration: none;
+	color: #FFFFFF;
 
+}
+
+a:visited {
+	font-weight:bold;
+	text-decoration: none;
+	color: rgb(186,186,186);
+}
+
+a:hover {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+/*-------- Headline Styling -------- */
 h1{
-	color: rgba(000, 128, 000, 1.0);
+	color: rgba(000,128,000, .75);
+	000, 128, 000
 	font-family: Anton; sans-serif;
-	font-size: 3em;
+	font-size: 35pt;
+	text-shadow: 2px 2px #FFFFFF;
+
+}
+h2{
+	color: rgba(255,204,035,1.0);
 	
+}
+
+h3{
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+/*-------- List Styling -------- */
+
+ul{
+	list-style: circle;
+	
+}
+
+
+.linkheader{
+	display: inline;
+	margin: 20px;
+	padding: 10px;
+}
+ol{
+	list-style:upper-roman;
 }
