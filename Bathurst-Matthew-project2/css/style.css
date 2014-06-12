@@ -1,7 +1,31 @@
-	<!--
+/* 
 		Matthew Bathurst
 		Designing for Web Standards I - Online #1
 		Instructor: Chris Vincze
 		Assignment: Project 2
 		Due Date: June 12th, 2014
-	-->
+
+*/
+
+/*Font Installation from Google Font */
+@font-face {
+	font-family: 'Anton', sans-serif;
+	src: url(http://fonts.googleapis.com/css?family=Anton);
+}
+
+/*-------- body tag styling -------- */
+
+body{
+	background-color:rgba(255,204,035,1.0);
+	
+	padding: 0px, 25px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+/*-------- Link Styling -------- */
+
+h1{
+	color: rgba(000, 128, 000, 1.0);
+	font-family: Anton; sans-serif;
+	font-size: 3em;
+	
+}
