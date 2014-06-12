@@ -5,4 +5,4 @@
 		Due Date: June 5th, 2014
 
 	GitHub Repo: https://github.com/mwbathurst/dws1/tree/gh-pages
-	GitHub Live Page: https://mwbathurst.github.io/dws1/Bathurst-Matthew-final-project1/index.html
+	GitHub Live Page: https://mwbathurst.github.io/dws1/Bathurst-Matthew-project2/index.html
