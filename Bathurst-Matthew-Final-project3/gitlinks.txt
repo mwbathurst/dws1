@@ -1,0 +1,8 @@
+	Matthew Bathurst
+		Designing for Web Standards I - Online #1
+		Instructor: Chris Vincze
+		Assignment: Project 2
+		Due Date: June 12th, 2014
+
+	GitHub Repo: https://github.com/mwbathurst/dws1/tree/gh-pages
+	GitHub Live Page: https://mwbathurst.github.io/dws1/Bathurst-Matthew-project2/index.html

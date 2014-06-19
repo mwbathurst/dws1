@@ -1,0 +1,179 @@
+/* 
+		Matthew Bathurst
+		Designing for Web Standards I - Online #1
+		Instructor: Chris Vincze
+		Assignment: Project 3
+		Due Date: June 19th, 2014
+
+*/
+
+/*Font Installation from Google Font */
+@font-face {
+	font-family: 'Anton', sans-serif;
+	src: url(http://fonts.googleapis.com/css?family=Anton);
+}
+/* Foundation */
+body{
+	/*Background Gradiant taken from CSS Gradiant Generator */
+	background: #00483a;
+	background: -moz-linear-gradient(top, #00483a 40%, #aaaaaa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#00483a), color-stop(100%,#aaaaaa));
+	background: -webkit-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
+	background: -o-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
+	background: -ms-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
+	background: linear-gradient(to bottom, #00483a 40%,#aaaaaa 100%);	color: rgba(255,204,035,1.0);
+	
+	
+	color: rgba(255,204,035,1.0);
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	width: 85%;
+	margin: auto;
+}
+
+/*-------- Link Styling -------- */
+a:link {
+    text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+a:visited {
+	font-weight:bold;
+	text-decoration: none;
+	color: rgb(255,204,035);
+}
+
+a:hover {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+.return{
+	text-align: right;
+	/*This may a be a class for a paragraph tag, but in the current organization plan it is grouped with links*/
+}
+
+/* Column Layout */
+
+#header{
+	margin: 20px, auto;
+}
+#body1of3{
+	
+	
+	width:100%;
+	float:left;
+	margin: 25px 0;
+	padding: 1%;
+	border: solid;
+	border-radius: 10px;
+	
+}
+#body2of3{
+	border: solid;
+	border-radius: 10px;
+	width:45%;
+	float:left;
+	margin: 0 1% 0 0%;
+	padding: 1%;
+	
+}
+#body3of3{
+	border: solid;
+	border-radius: 10px;
+	width: 47%;
+	margin: 0 1% 0 0;
+	float: left;
+	padding: 1%;
+}
+
+#footer{
+	margin: 25px 0 0 0;
+	width: 100%;
+	background-image: url('../images/background1.gif');
+	background-position: top left;
+	background-repeat: no-repeat;
+	
+	float: left;
+	clear: left;
+	padding: 1%;
+	text-align: right;
+	border-top: 2px solid rgba(255,204,035,1.0);
+}
+#bodydivider{
+	width: 100%;
+	height: 150px;
+	float: left;
+	clear:left;
+	background-image: url('../images/background2.png');
+	background-position:left;
+	background-repeat: repeat-x;
+}
+
+/*header formating*/
+h1{
+background-image: url('../images/background1.gif');
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 110px;
+	padding: 10px 0 0 150px;
+	font-family: Anton, sans-serif;
+	font-size: 3.5em;
+	text-shadow: 2px 2px #FFFFFF;
+	
+}
+h2{
+	color: rgba(255,204,035,1.0);
+	
+}
+
+h3{
+	color:#FFFFFF;
+	font-style: italic;
+}
+
+/*-------- Custom List Styling for classes & ids -------- */
+
+.linkheader{
+	display: inline;
+	margin: 20px;
+	padding: 10px;
+}
+
+/*-------- List Styling -------- */
+
+ul{
+	list-style: circle;
+	
+}
+ol{
+	list-style:upper-roman;
+}
+
+/*-------- Figure Styling -----*/
+figure{
+	width: 300px;
+	display:block;
+	margin: 4% auto;
+	
+}
+figure img{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+figcaption{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: right;
+	width: 300px;
+}
+
