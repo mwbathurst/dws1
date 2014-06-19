@@ -10,17 +10,12 @@
 /*Font Installation from Google Font */
 @font-face {
 	font-family: 'Anton', sans-serif;
-	src: url(http://fonts.googleapis.com/css?family=Anton);
+	src: url('http://fonts.googleapis.com/css?family=Anton');
 }
 /* Foundation */
 body{
 	/*Background Gradiant taken from CSS Gradiant Generator */
 	background: #00483a;
-	background: -moz-linear-gradient(top, #00483a 40%, #aaaaaa 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#00483a), color-stop(100%,#aaaaaa));
-	background: -webkit-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
-	background: -o-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
-	background: -ms-linear-gradient(top, #00483a 40%,#aaaaaa 100%);
 	background: linear-gradient(to bottom, #00483a 40%,#aaaaaa 100%);	color: rgba(255,204,035,1.0);
 	
 	
@@ -63,7 +58,7 @@ a:active {
 /* Column Layout */
 
 #header{
-	margin: 20px, auto;
+	margin: auto;
 }
 #body1of3{
 	
